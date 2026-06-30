@@ -1,22 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Yoghurt distribution for work
-
-
-Fakts:
-Brīnumeksperimenti - Brīnumzeme Centrs 	29.06.2026 - 03.07.2026 (44 +4) 
-A 19 +2
-B 25 +2
-Brīnumradošums - Brinumzeme Āgenskalns 	29.06.2026 - 03.07.2026 	21 +2
-Brīnumzinātne - SEB 	29.06.2026 - 03.07.2026 	(38+4)
-
-Prognoze:
-Brīnumpētnieki - Brīnumzeme Centrs 	06.07.2026 - 10.07.2026 	34
-Brīnumgardumi - Brinumzeme Āgenskalns 	06.07.2026 - 10.07.2026 	15
-
-Brīnumpavāri - Brīnumzeme Centrs 	13.07.2026 - 17.07.2026 	38
-Brīnumeksperimenti - Brinumzeme Āgenskalns 	13.07.2026 - 17.07.2026 	25
-
 """
 
 import random
