@@ -43,8 +43,7 @@ def shuffleSorter(YOG, KIDS):
         biggestNR=max(biggestNR, KIDS[i])
         
     YOGLeft=YOG.copy() 
-    '''cause of bug! needs to be YOGLeft = YOG.copy() not YOGLeft = YOG .... need to explore why though'''
-
+    
     for i in YOG: 
         partial={}
         number=YOG[i]
@@ -81,10 +80,6 @@ def shuffleSorter(YOG, KIDS):
     for i in YOGLeft:
         totalLeft+=YOGLeft[i]
         
-        
     realResult=[result, totalLeft]
     return realResult
     
-    
-'''possible bug - can only run once, changes og YOG values when minusing. no effect when called as function with different inputs each time'''
-'''FIXED!'''

@@ -31,4 +31,6 @@ def optimizer(YOG, KIDS):
     
     return result
 
-'''optimizer minimizing leftovers, need to do one maximizing days for each camp so they are as equal as possible'''
+'''optimizer minimizing leftovers, can also do one maximizing days for each camp so they are as equal as possible'''
+'''however, in practice, since the camps get shuffled before each yoghurt batch assignment, day amounts per camp end up quite equal'''
+'''that is, camps with less participants dont get favoured by the algorithm, resulting in approximately equal amount of days'''
